@@ -1,5 +1,4 @@
 package com.kuang.service;
-
 import com.kuang.dao.UserDao;
 
 public class UserServiceImpl implements UserService{
