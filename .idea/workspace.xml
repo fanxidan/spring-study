@@ -5,18 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5a774fe-9bfb-431d-a43f-4f6a1b3ad69b" name="Default Changelist" comment="spring study">
-      <change afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/java/com/kuang/mapper/UserMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/resources/spring-dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-mybatis/src/test/java/MyTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/java/com/kuang/mapper/UserMapperImpl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-11-transaction/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-11-transaction/spring-11-transaction.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-11-transaction/src/main/java/com/kuang/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-11-transaction/src/main/java/com/kuang/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-11-transaction/src/main/java/com/kuang/mapper/UserMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-11-transaction/src/main/java/com/kuang/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-11-transaction/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-11-transaction/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-11-transaction/src/main/resources/spring-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-11-transaction/src/test/java/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-10-mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-mybatis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-10-mybatis/spring-10-mybatis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-mybatis/spring-10-mybatis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-10-mybatis/src/main/java/com/kuang/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/java/com/kuang/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-10-mybatis/src/main/java/com/kuang/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/java/com/kuang/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-10-mybatis/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-10-mybatis/target/classes/com/kuang/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-mybatis/target/classes/com/kuang/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-10-mybatis/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-mybatis/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-10-mybatis/src/main/resources/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/resources/spring-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-10-mybatis/src/test/java/MyTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-mybatis/src/test/java/MyTest2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +78,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="ALL" />
     <property name="jdk.selected.JAVA_MODULE" value="15" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-08-proxy/src/main/java/com/kuang/demo04" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-11-transaction/src/main/java/com/kuang/mapper" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -81,12 +87,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\王金龙\IdeaProjects\spring-study\spring-11-transaction\src\main\java\com\kuang\mapper" />
+      <recent name="C:\Users\王金龙\IdeaProjects\spring-study\spring-11-transaction\src\main\resources" />
       <recent name="C:\Users\王金龙\IdeaProjects\spring-study\spring-08-proxy\src\main\java\com\kuang\demo04" />
       <recent name="C:\Users\王金龙\IdeaProjects\spring-study\spring-08-proxy\src\main\java\com\kuang\demo3" />
       <recent name="C:\Users\王金龙\IdeaProjects\spring-study\spring-06-anno\src\main\java" />
-      <recent name="C:\Users\王金龙\IdeaProjects\spring-study\spring-05-Autowired" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kuang.mapper" />
       <recent name="com.kuang.demo04" />
       <recent name="com.kuang.demo3" />
       <recent name="" />
@@ -98,20 +106,7 @@
       <command value="mvn validate" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyTest2">
-    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kuang.demo03.Client" />
-      <module name="spring-08-proxy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kuang.demo03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MyTest (1)">
     <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kuang.demo04.Client" />
       <module name="spring-08-proxy" />
@@ -121,6 +116,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <module name="spring-11-transaction" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,15 +141,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -163,19 +163,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Client (2)" />
       <item itemvalue="Application.Client (3)" />
       <item itemvalue="Application.MyTest" />
-      <item itemvalue="JUnit.MyTest.test" />
       <item itemvalue="Application.MyTest2" />
+      <item itemvalue="JUnit.MyTest.test" />
+      <item itemvalue="Application.MyTest (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyTest (1)" />
         <item itemvalue="Application.MyTest2" />
         <item itemvalue="JUnit.MyTest.test" />
         <item itemvalue="Application.MyTest" />
         <item itemvalue="Application.Client (3)" />
-        <item itemvalue="Application.Client (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +211,8 @@
       <workItem from="1622032328997" duration="1798000" />
       <workItem from="1622119656086" duration="706000" />
       <workItem from="1622120438424" duration="2782000" />
-      <workItem from="1622199411995" duration="5932000" />
+      <workItem from="1622199411995" duration="6648000" />
+      <workItem from="1622254684178" duration="3147000" />
     </task>
     <task id="LOCAL-00001" summary="spring study">
       <created>1620741022008</created>
@@ -255,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622122744271</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="spring study">
+      <created>1622205433503</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1622205433503</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -20,14 +20,4 @@
         <property name="configLocation" value="classpath:mybatis-config.xml"/>
         <property name="mapperLocations" value="classpath:com/kuang/mapper/*.xml"/>
     </bean>
-<!--  SqlSessionTemplate就是使用的sqlsession  -->
-<!--    <bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">-->
-<!--&lt;!&ndash;        只能用构造器注入，因为没有set方法&ndash;&gt;-->
-<!--        <constructor-arg index="0" ref="sqlSessionFactory"/>-->
-<!--    </bean>-->
-
-<!--    <bean id="userMapper" class="com.kuang.mapper.UserMapperImpl">-->
-<!--        <property name="sqlSession" ref="sqlSession"/>-->
-<!--    </bean>-->
-
 </beans>
