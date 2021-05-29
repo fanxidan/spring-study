@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--  id: bean的唯一标识，相当于对象名
+       class：bean对象对应的全限定名：包名+类型
+       name: 也是别名,可以同时取多个别名-->
+    <bean id="user4" class="com.kuang.pojo.User2" name="other_user,other_user2 other_user3">
+<!--        通过参数类型传值-->
+        <constructor-arg type="java.lang.String" value="c"/>
+        <constructor-arg type="java.lang.Integer" value="3"/>
+    </bean>
+</beans>

@@ -5,8 +5,8 @@
       <configuration>
         <fileset id="fileset" name="ApplicationContext" removed="false">
           <file>file://$MODULE_DIR$/src/main/resources/applicationContext.xml</file>
-          <file>file://$MODULE_DIR$/src/main/resources/applicationContext2.xml</file>
-          <file>file://$MODULE_DIR$/src/main/resources/applicationContext3.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/beans1.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/beans4.xml</file>
         </fileset>
       </configuration>
     </facet>
@@ -22,7 +22,12 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.9.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-context:5.2.14.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-aop:5.2.14.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-beans:5.2.14.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-core:5.2.14.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-jcl:5.2.14.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-expression:5.2.14.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: junit:junit:3.8.2" level="project" />
   </component>
 </module>

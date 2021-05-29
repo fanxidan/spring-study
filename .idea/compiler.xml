@@ -11,11 +11,11 @@
         <module name="spring-04-di" />
         <module name="spring-10-mybatis" />
         <module name="spring-06-anno" />
+        <module name="spring-03-IOC2" />
         <module name="spring-09-aop" />
         <module name="spring-11-transaction" />
         <module name="spring-01-IOC1" />
         <module name="spring-05-Autowired" />
-        <module name="spring-03-ICO2" />
         <module name="spring-08-proxy" />
       </profile>
     </annotationProcessing>
@@ -23,6 +23,7 @@
       <module name="spring-01-IOC1" target="15" />
       <module name="spring-02-hellospring" target="15" />
       <module name="spring-03-ICO2" target="15" />
+      <module name="spring-03-IOC2" target="15" />
       <module name="spring-04-di" target="15" />
       <module name="spring-05-Autowired" target="15" />
       <module name="spring-06-anno" target="15" />

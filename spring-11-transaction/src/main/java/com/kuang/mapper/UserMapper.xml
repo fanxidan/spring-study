@@ -9,6 +9,7 @@
     <insert id="addUser" parameterType="user">
         insert into mybatis.stu(id, name) values (#{id},#{name});
     </insert>
+<!--    故意写错-->
     <delete id="deleteUser" parameterType="int">
         deletes from mybatis.stu where id=#{id};
     </delete>
