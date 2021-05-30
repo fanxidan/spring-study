@@ -9,10 +9,6 @@ import org.springframework.stereotype.Component;
 //作用域
 @Scope("singleton")
 public class User {
-    public String name;
-    //注入值
     @Value("fanxidan")
-    public void setName(String name) {
-        this.name = name;
-    }
+    public String name;
 }
