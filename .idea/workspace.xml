@@ -5,44 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5a774fe-9bfb-431d-a43f-4f6a1b3ad69b" name="Default Changelist" comment="spring study">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-03-IOC2/spring-03-IOC2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-03-IOC2/src/main/java/com/kuang/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-03-IOC2/src/main/java/com/kuang/pojo/User2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-03-IOC2/src/main/resources/beans1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-03-IOC2/src/main/resources/beans2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-03-IOC2/src/main/resources/beans4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-03-IOC2/src/test/java/MyTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-03-IOC2/src/test/java/MyTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-03-IOC2/src/main/resources/beans5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04-di/src/main/resources/beans1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04-di/src/main/resources/beans2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04-di/src/main/resources/beans3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04-di/src/main/resources/beans4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04-di/src/test/java/MyTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04-di/src/test/java/MyTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04-di/src/test/java/MyTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04-di/src/test/java/MyTest4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-Autowired/src/main/java/com/kuang/pojo/People3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-Autowired/src/main/java/com/kuang/pojo/People4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-Autowired/src/main/java/com/kuang/pojo/People5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-Autowired/src/main/java/com/kuang/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-Autowired/src/main/resources/beans3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-Autowired/src/main/resources/beans4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-Autowired/src/main/resources/beans5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-Autowired/src/main/resources/beans6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-Autowired/src/main/resources/beans7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-Autowired/src/test/java/MyTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-Autowired/src/test/java/MyTest3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-01-IOC1/spring-01-IOC1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-01-IOC1/spring-01-IOC1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-02-hellospring/spring-02-hellospring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-02-hellospring/spring-02-hellospring.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-03-ICO2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-03-IOC2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-03-ICO2/spring-03-ICO2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-03-ICO2/src/main/java/com/kuang/pojo/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-03-ICO2/src/main/java/com/kuang/pojo/User2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-03-ICO2/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-03-IOC2/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-03-ICO2/src/main/resources/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-03-ICO2/src/main/resources/beans2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-03-ICO2/src/main/resources/beans3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-03-IOC2/src/main/resources/beans3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-03-ICO2/src/test/java/MyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-03-IOC2/spring-03-IOC2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-03-IOC2/spring-03-IOC2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-03-IOC2/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-03-IOC2/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-03-IOC2/src/test/java/MyTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-03-IOC2/src/test/java/MyTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-04-di/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-04-di/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-04-di/spring-04-di.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-04-di/spring-04-di.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-04-di/src/test/java/MyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-05-Autowired/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-05-Autowired/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-05-Autowired/spring-05-Autowired.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-05-Autowired/spring-05-Autowired.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-06-anno/spring-06-anno.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-06-anno/spring-06-anno.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-08-proxy/spring-08-proxy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-08-proxy/spring-08-proxy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-09-aop/spring-09-aop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-09-aop/spring-09-aop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-10-mybatis/spring-10-mybatis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-mybatis/spring-10-mybatis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-11-transaction/spring-11-transaction.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-11-transaction/spring-11-transaction.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-11-transaction/src/main/java/com/kuang/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-11-transaction/src/main/java/com/kuang/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-11-transaction/src/main/java/com/kuang/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-11-transaction/src/main/java/com/kuang/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-11-transaction/src/main/resources/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-11-transaction/src/main/resources/spring-dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-study.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-05-Autowired/src/main/java/com/kuang/pojo/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-05-Autowired/src/main/java/com/kuang/pojo/People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-05-Autowired/src/main/java/com/kuang/pojo/People2.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-05-Autowired/src/main/java/com/kuang/pojo/People2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-05-Autowired/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-05-Autowired/src/main/resources/beans1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-05-Autowired/src/main/resources/beans2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-05-Autowired/src/main/resources/beans2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-05-Autowired/src/test/java/MyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-05-Autowired/src/test/java/MyTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-05-Autowired/src/test/java/MyTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-05-Autowired/target/classes/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-05-Autowired/target/classes/beans1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-05-Autowired/target/classes/beans1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-05-Autowired/target/classes/beans2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-05-Autowired/target/classes/beans2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-05-Autowired/target/classes/com/kuang/pojo/People.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-05-Autowired/target/classes/com/kuang/pojo/People.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-05-Autowired/target/classes/com/kuang/pojo/People2.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-05-Autowired/target/classes/com/kuang/pojo/People2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-05-Autowired/target/test-classes/MyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-05-Autowired/target/test-classes/MyTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-05-Autowired/target/test-classes/MyTest2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +57,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -99,27 +103,27 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="ALL" />
     <property name="jdk.selected.JAVA_MODULE" value="15" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-03-IOC2/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-05-Autowired/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.32853404" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\王金龙\IdeaProjects\spring-study\spring-05-Autowired\src\main\resources" />
       <recent name="C:\Users\王金龙\IdeaProjects\spring-study\spring-03-IOC2\src\main\resources" />
       <recent name="C:\Users\王金龙\IdeaProjects\spring-study\spring-11-transaction\src\main\java\com\kuang\mapper" />
       <recent name="C:\Users\王金龙\IdeaProjects\spring-study\spring-11-transaction\src\main\resources" />
       <recent name="C:\Users\王金龙\IdeaProjects\spring-study\spring-08-proxy\src\main\java\com\kuang\demo04" />
-      <recent name="C:\Users\王金龙\IdeaProjects\spring-study\spring-08-proxy\src\main\java\com\kuang\demo3" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="com.kuang.pojo" />
       <recent name="com.kuang.mapper" />
       <recent name="com.kuang.demo04" />
       <recent name="com.kuang.demo3" />
-      <recent name="" />
-      <recent name="com.kuang.pojo" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -127,31 +131,10 @@
       <command value="mvn validate" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyTest2 (1)">
-    <configuration name="MyTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <module name="spring-11-transaction" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MyTest3.test">
     <configuration name="MyTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyTest1" />
-      <module name="spring-03-IOC2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyTest2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyTest2" />
-      <module name="spring-03-IOC2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyTest2" />
-      <module name="spring-10-mybatis" />
+      <module name="spring-04-di" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -169,10 +152,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-10-mybatis" />
+    <configuration name="MyTest1.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-05-Autowired" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="MAIN_CLASS_NAME" value="MyTest1" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest2.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-05-Autowired" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest2" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest2.test1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-05-Autowired" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest2" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest3.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-05-Autowired" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest3" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -180,19 +193,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MyTest2" />
-      <item itemvalue="Application.MyTest (1)" />
-      <item itemvalue="JUnit.MyTest.test" />
       <item itemvalue="Application.MyTest1" />
-      <item itemvalue="Application.MyTest2 (1)" />
+      <item itemvalue="JUnit.MyTest1.test" />
+      <item itemvalue="JUnit.MyTest2.test1 (1)" />
+      <item itemvalue="JUnit.MyTest2.test" />
+      <item itemvalue="JUnit.MyTest3.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyTest2 (1)" />
+        <item itemvalue="JUnit.MyTest3.test" />
+        <item itemvalue="JUnit.MyTest2.test" />
+        <item itemvalue="JUnit.MyTest2.test1 (1)" />
+        <item itemvalue="JUnit.MyTest1.test" />
         <item itemvalue="Application.MyTest1" />
-        <item itemvalue="Application.MyTest (1)" />
-        <item itemvalue="Application.MyTest2" />
-        <item itemvalue="JUnit.MyTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +243,7 @@
       <workItem from="1622120438424" duration="2782000" />
       <workItem from="1622199411995" duration="6648000" />
       <workItem from="1622254684178" duration="3641000" />
-      <workItem from="1622294444180" duration="6244000" />
+      <workItem from="1622294444180" duration="16032000" />
     </task>
     <task id="LOCAL-00001" summary="spring study">
       <created>1620741022008</created>
@@ -288,7 +301,21 @@
       <option name="project" value="LOCAL" />
       <updated>1622258319285</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="spring study">
+      <created>1622300769090</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1622300769090</updated>
+    </task>
+    <task id="LOCAL-00010" summary="spring study">
+      <created>1622346130131</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1622346130131</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,7 +332,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="HEAD" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -333,6 +360,14 @@
           <url>file://$PROJECT_DIR$/spring-08-proxy/src/main/java/com/kuang/demo03/Client.java</url>
           <line>6</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/spring-04-di/src/test/java/MyTest2.java</url>
+          <line>15</line>
+          <properties class="MyTest2" method="test2">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,13 +1,17 @@
 package com.kuang.pojo;
 
-public class People {
-    private Cat cat;
-    private Dog dog;
-    private String name;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
 
-    public void setName(String name) {
-        this.name = name;
-    }
+public class People4 {
+    @Autowired
+    private Cat cat;
+    @Autowired
+    @Qualifier(value = "dog2")  //指定要使用的bean id
+    private Dog dog;
+    @Value("fxd")
+    private String name;
 
     @Override
     public String toString() {
@@ -24,13 +28,5 @@ public class People {
 
     public Dog getDog() {
         return dog;
-    }
-
-    public void setCat(Cat cat) {
-        this.cat = cat;
-    }
-
-    public void setDog(Dog dog) {
-        this.dog = dog;
     }
 }

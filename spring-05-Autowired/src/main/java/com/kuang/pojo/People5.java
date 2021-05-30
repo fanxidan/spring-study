@@ -1,13 +1,16 @@
 package com.kuang.pojo;
 
-public class People {
-    private Cat cat;
-    private Dog dog;
-    private String name;
+import org.springframework.beans.factory.annotation.Value;
 
-    public void setName(String name) {
-        this.name = name;
-    }
+import javax.annotation.Resource;
+
+public class People5 {
+    @Resource(name = "cat2")
+    private Cat cat;
+    @Resource(name = "dog2")
+    private Dog dog;
+    @Value("fxd")
+    private String name;
 
     @Override
     public String toString() {
@@ -24,13 +27,5 @@ public class People {
 
     public Dog getDog() {
         return dog;
-    }
-
-    public void setCat(Cat cat) {
-        this.cat = cat;
-    }
-
-    public void setDog(Dog dog) {
-        this.dog = dog;
     }
 }

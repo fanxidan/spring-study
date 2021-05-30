@@ -2,16 +2,19 @@ package com.kuang.pojo;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.lang.Nullable;
 
-public class People2 {
-
-    @Autowired
+public class People3 {
+    //@Autowired(required=false)：表示忽略当前要注入的bean，如果有直接注入，没有跳过，不会报错。
+    @Autowired(required = false)
     private Cat cat;
     @Autowired
     private Dog dog;
-    //使用value注入值，不需要在xml中通过构造方式或set注入
-    @Value("fxd")
     private String name;
+
+    public People3( String s) {
+        this.name = s;
+    }
 
     @Override
     public String toString() {

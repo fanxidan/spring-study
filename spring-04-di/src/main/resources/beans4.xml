@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:c="http://www.springframework.org/schema/c"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--Spring默认创建对象是单例模式-->
+    <bean id="user_singleton" class="com.kuang.pojo.User" c:age="20" c:_0="fxd2" scope="singleton"/>
+    <bean id="user_prototype" class="com.kuang.pojo.User" c:age="20" c:_0="fxd2" scope="prototype"/>
+</beans>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:c="http://www.springframework.org/schema/c"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--通过c命名空间注入，必须要有有参构造器-->
+    <bean id="user1" class="com.kuang.pojo.User" c:name="a" c:age="1"/>
+    <!--通过c命名空间注入，c:_0等效于c:name c:_1等效于c:age-->
+    <bean id="user2" class="com.kuang.pojo.User" c:_0="b" c:_1="2"/>
+</beans>

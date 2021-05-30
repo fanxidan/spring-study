@@ -7,4 +7,6 @@
   <import resource="beans1.xml"/>
   <import resource="beans2.xml"/>
   <import resource="beans3.xml"/>
+<!--  <import resource="beans4.xml"/>-->
+  <import resource="beans5.xml"/>
 </beans>
