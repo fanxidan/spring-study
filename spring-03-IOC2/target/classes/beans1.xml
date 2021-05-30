@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--  id: bean的唯一标识，相当于对象名
+       class：bean对象对应的全限定名：包名+类型
+       name: 也是别名,可以同时取多个别名-->
+    <bean id="user" class="com.kuang.pojo.User" name="other_user,other_user2 other_user3">
+        <!--  直接通过参数名创建对象      -->
+        <!--  通过property注入必须要有set方法      -->
+        <property name="name" value="fanxidan" />
+    </bean>
+</beans>
