@@ -7,9 +7,6 @@ public class Proxy implements RentInterface{
         this.landlord = landlord;
     }
 
-    public Proxy() {
-    }
-
     @Override
     public void rent() {
         seeHouse();

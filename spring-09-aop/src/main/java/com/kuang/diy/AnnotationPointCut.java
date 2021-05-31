@@ -24,6 +24,7 @@ public class AnnotationPointCut {
     public void arround(ProceedingJoinPoint proceedingJoinPoint) throws Throwable {
         System.out.println("环绕前");
         System.out.println(proceedingJoinPoint.getSignature());//获取签名:即切入的类名.方法名
+        // 执行add方法前后执行前置通知与后置通知
         Object proceed = proceedingJoinPoint.proceed();//执行方法
         System.out.println("环绕后");
     }

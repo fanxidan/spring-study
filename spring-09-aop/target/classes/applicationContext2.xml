@@ -6,9 +6,8 @@
                         http://www.springframework.org/schema/beans/spring-beans.xsd
                         http://www.springframework.org/schema/aop
                         http://www.springframework.org/schema/aop/spring-aop.xsd">
-
-    <bean id="userService" class="com.kuang.service.UserServiceImpl"/>
     <!--方式二：自定义类-->
+    <bean id="userService" class="com.kuang.service.UserServiceImpl"/>
     <bean id="diy" class="com.kuang.diy.DiyPointCut"/>
     <aop:config>
         <!--        自定义切面，ref要引用的类-->

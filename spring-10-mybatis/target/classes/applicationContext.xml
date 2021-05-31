@@ -5,7 +5,7 @@
                         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <import resource="spring-dao.xml"/>
-    <bean id="userMapper" class="com.kuang.mapper.UserMapperImpl2">
+    <bean id="userMapper" class="com.kuang.mapper.UserMapperImpl">
         <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
     </bean>
 

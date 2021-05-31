@@ -13,7 +13,7 @@ import java.util.List;
 public class MyTest {
     @Test
     public void test() throws IOException {
-        String resources = "mybatis-config.xml";
+        String resources = "mybatis-config1.xml";
         InputStream inputStream = Resources.getResourceAsStream(resources);
         SqlSessionFactory sessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
         SqlSession sqlSession = sessionFactory.openSession(true);
