@@ -15,6 +15,7 @@
 * 组成
 
 ![img](C:\Users\王金龙\Desktop\Spring\images\Spring Core.jpg)
+<img src=".\images\Spring Core.jpg">
 
 * 扩展
 
